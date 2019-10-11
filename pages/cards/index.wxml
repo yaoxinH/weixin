@@ -1,0 +1,20 @@
+
+
+
+<!-- 小程序中也有类似网页中的标签，但是并不一致！！！ -->
+
+<!-- wxml 中单标签必须要自闭合！！！ -->
+<img src="../../static/uploads/content_1.png" />
+<button>按钮</button>
+
+<!-- 小程序有自已所特有的标签，能够实现与网页一样的效果！ -->
+<image src="../../static/uploads/content_1.png"></image>
+<navigator url="../logs/logs">相当于a链接</navigator>
+<!-- 如果要跳转的页面为 tabBar 中的页面，navigator 默认不生效 -->
+<navigator url="../cards/index">相当于a链接</navigator>
+<!-- 相当于网页中的 div 是块级盒子 -->
+<view class="box">
+  <!-- 相当于网页中的 span 是行内盒子 -->
+  <text>我是行内盒子</text>
+  <text>我是行内盒子</text>
+</view>
